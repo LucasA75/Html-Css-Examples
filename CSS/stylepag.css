@@ -1,0 +1,56 @@
+.body{
+    text-align:center; 
+    background-image:url(https://media3.giphy.com/media/1yld7nW3oQ2IyRubUm/giphy.gif?cid=ecf05e473rffst0hksd4x8pxhogo4ssi5aioarc8h2glgniy&rid=giphy.gif&ct=g);
+    height: 50px;
+    padding: 150px;
+}
+.header{
+    text-align:center ;
+    background-color: darkslategray;
+    margin-top: -170px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+.img{
+    width: 30%;
+}
+.game:visited {
+    color: black;
+}
+
+.game:hover {
+    color: brown;
+}
+
+.game:active {
+    color: red;
+}
+
+.seleccion{
+    width: auto;
+    height: 20px;
+    background-color: darkolivegreen;
+    border: 2px black  solid;
+    color: black;
+    
+}
+.foot{
+    background-color: beige;
+    padding-bottom: 10px;
+}
+.link{
+    border-top: -30px;
+    color: black;
+}
+main{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+.nombre{
+    background-color: aquamarine;
+    width: 300px;
+    margin-left: 400px;
+}

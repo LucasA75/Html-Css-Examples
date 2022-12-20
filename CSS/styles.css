@@ -1,0 +1,73 @@
+/* Esto es un comentario */
+
+/* Selector */
+
+/* Selector de todo */
+* {
+    background-color: aliceblue
+}
+
+/* Por etiqueta */
+/* funciona por jerarquia , mientras mas especifico es la prioridad */
+h1 {
+    color: aqua;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+/* Por clase -> el puntito */
+.sub {
+    color: brown;
+}
+
+.parr {
+    color: forestgreen;
+    /* Color de letras */
+    background-color: darkgray;
+    /* Color de fondo */
+    border: 1px black solid;
+    /* borde | color | tipo de borde | */
+    height: 49%;
+    /* Alto */
+    width: 51%;
+    /* Ancho */
+    border-radius: 20px;
+    /* Borde circular */
+    text-align: center;
+    /* Aliniar el texto */
+    margin: -20px 10px 10px 13px;
+    /* Para mover el elemento - todo rededor */
+}
+
+/* Margin -> Arriba derecha abajo izquierda */
+/* Investigar diferencia entre em y rem  */
+/* y esta el vh? */
+/* por id -> el gatito*/
+#parrafo {
+    color: aquamarine;
+    background-color: grey;
+    height: 49%;
+    width: 50%;
+}
+
+#exte {
+    background-color: aqua;
+    height: 200px;
+    height: 200px; 
+    border: 1px black dotted;
+    padding: 20px;
+}
+
+/* Padding crea espacio extra dentro de un elemento. 
+En contraste, 
+margin crea espacio extra alrededor de un elemento
+ */
+#int {
+    background-color: red;
+    height: 50px;
+    height: 50px;
+    margin: -150px;
+    border: 1px black dotted;
+}
